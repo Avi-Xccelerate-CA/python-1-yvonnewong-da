@@ -11,8 +11,23 @@
 # input: [500, 1, 2, 3, 4, 5]
 #expected output: "No medicine given"
 # HINT: using % operator to find remainder may be helpful
+
 def dose(needs):
     #YOUR SOLUTION STARTS HERE
+        if sum(needs) >= 500:  
+            return ("No medicine given")
+    
+    lst = []
+    for x in needs:         
+        if x >= 250:
+            return print("No medicine given")
+        
+        if x % 10 == 0:       
+            n1 = int(x/10), x%10
+            lst.append(n1)
+        else:
+            n2 = int(x//10+1), (10-x%10)
+            lst.append(n2)
+    print(lst)
 
     #YOUR SOLUTION ENDS HERE
-

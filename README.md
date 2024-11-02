@@ -11,7 +11,6 @@ There is a dispensary in need of a tool that gives its very sickly patients medi
 - Special Defense
 - Speed
 
-
 Because the vitamin supplements only increase attribute points by 10, specific needs of a patient that aren’t in the multiple of 10 aren’t taken into account.
 
 Therefore, the dispensary also has injections that decrease an attribute by 1 so that they can account for those values that aren’t multiples of 10.
